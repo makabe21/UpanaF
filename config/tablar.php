@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'layout' => 'horizontal',
+    'layout' => 'vertical',
     //boxed, combo, condensed, fluid, fluid-vertical, horizontal, navbar-overlap, navbar-sticky, rtl, vertical, vertical-right, vertical-transparent
 
     'layout_light_sidebar' => null,
@@ -85,7 +85,7 @@ return [
     |
     */
 
-    'sticky_top_nav_bar' => false,
+    'sticky_top_nav_bar' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -149,48 +149,15 @@ return [
             'icon' => 'ti ti-home',
             'url' => 'home'
         ],
-
         [
-            'text' => 'Support 1',
-            'url' => '#',
-            'icon' => 'ti ti-help',
-            'active' => ['support1'],
-            'submenu' => [
-                [
-                    'text' => 'Ticket',
-                    'url' => 'support1',
-                    'icon' => 'ti ti-article',
-                ]
-            ],
+            'text' => 'Productos',
+            'icon' => 'ti ti-shopping-cart',
+            'url' => '/products'
         ],
 
-        [
-            'text' => 'Support 2',
-            'url' => '#',
-            'icon' => 'ti ti-help',
-            'active' => ['support2'],
-            'submenu' => [
-                [
-                    'text' => 'Ticket',
-                    'url' => 'support2',
-                    'icon' => 'ti ti-article',
-                ]
-            ],
-        ],
+      
 
-        [
-            'text' => 'Support 3',
-            'url' => '#',
-            'icon' => 'ti ti-help',
-            'active' => ['support3'],
-            'submenu' => [
-                [
-                    'text' => 'Ticket',
-                    'url' => 'support3',
-                    'icon' => 'ti ti-article',
-                ]
-            ],
-        ],
+        
 
     ],
 
