@@ -72,7 +72,7 @@ return [
 
     'layout_light_sidebar' => null,
     'layout_light_topbar' => true,
-    'layout_enable_top_header' => false,
+    'layout_enable_top_header' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -145,7 +145,7 @@ return [
     'menu' => [
         // Navbar items:
         [
-            'text' => 'Home',
+            'text' => 'Inicio',
             'icon' => 'ti ti-home',
             'url' => 'home'
         ],
@@ -157,7 +157,7 @@ return [
 
       
 
-        
+       
 
     ],
 
